@@ -1,0 +1,19 @@
+{
+  "name": "edu.system",
+  "version": "1.0.0",
+  "description": "Education system for Xryst",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rackvy/edu.system.git"
+  },
+  "author": "Alexey Shaparev & Alexey Shelikhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rackvy/edu.system/issues"
+  },
+  "homepage": "https://github.com/rackvy/edu.system#readme"
+}
