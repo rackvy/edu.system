@@ -1,22 +1,19 @@
 {
-  "name": "edu.system",
+  "name": "nuxt-first",
   "version": "1.0.0",
-  "description": "Education system for Xryst",
-  "main": "index.js",
+  "description": "Nuxt.js project",
+  "author": "21071988 <shaparev1988@mail.ru>",
+  "private": true,
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rackvy/edu.system.git"
-  },
-  "author": "Alexey Shaparev & Alexey Shelikhov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rackvy/edu.system/issues"
-  },
-  "homepage": "https://github.com/rackvy/edu.system#readme",
   "dependencies": {
+    "nuxt": "^2.0.0",
     "@handlebars/allow-prototype-access": "^1.0.3",
     "csurf": "^1.11.0",
     "dotenv": "^8.2.0",
@@ -30,6 +27,11 @@
     "sequelize-cli": "^6.2.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^2.0.4"
   }
 }
